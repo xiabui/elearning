@@ -1,0 +1,26 @@
+x-star-rating {
+    font-family: 'Ionicons';
+    font-size: 100px;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+x-star-rating > .star::after {
+    content: '\f3ae';
+    color: #777;
+    margin: 10px;
+}
+
+x-star-rating > .star.full::after {
+    content: '\f2fc';
+    color: #fd0;
+    margin: 10px;
+}
+
+.star-bar {
+    margin-bottom:2% 
+}
+
+.text-input {
+    margin-bottom: 5%
+}

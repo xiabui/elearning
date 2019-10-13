@@ -1,0 +1,92 @@
+.rating-list-container {
+    margin-top: 5%;
+    margin-bottom: 15%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.rate-container {
+    margin: 10% auto;
+    padding: 2%
+}
+
+.employee-card {
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.employee-card:hover {
+    /*box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);*/
+    transition: 0.3s;
+    border: solid 3px #d0d0d0;
+
+}
+
+.title {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.a-card{
+    color: black;
+    text-decoration: none;
+}
+.a-card:hover {
+    color: black;
+    text-decoration: none;
+    text-shadow: #333333;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.footer {
+    background: none repeat scroll 0 0 #fff;
+    border-top: 1px solid #e7eaec;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
+    position: absolute;
+    right: 0;
+}
+
+.pull-right{
+    float: right;
+}
+
+.login-container {
+    margin: 10% auto;
+}
+
+.login-form{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form h3 {
+    text-align: center;
+    color: #333333;
+}
+
+.login-container form {
+    padding: 5%;
+}
+
+.holder img {
+    align-self: right;
+    height: 150px;
+    width: auto;
+    object-fit: cover;
+    margin-bottom: 5%;
+}

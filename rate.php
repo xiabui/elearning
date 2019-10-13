@@ -1,0 +1,86 @@
+<?php
+    //For back-end
+    //TODO save username into section and route page
+    include('./db.php');
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rating System</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/d72af0ed8d.js" crossorigin="anonymous"></script>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <?php
+        include('./src/header.php')
+    ?>
+    <div class="title">
+        <h1>Please choose employee to rate!</h1>
+    </div>
+    <div class="container-fluid rating-list-container">
+       <div class="row justify-content-center">
+
+           <div class="card col-md-2 employee-card">
+               <a class="a-card" href="./rate_content.php">
+                   <div class="">
+                       <div class=""><img class="card-img-top" src="./images/user_test.png" alt="Employees's name"></div>
+                       <div class="card-body">Pham Hoai Hung</div>
+                   </div>
+               </a>
+           </div>
+
+           <div class="card col-md-2 employee-card">
+               <a class="a-card" href="./rate_content.php">
+                   <div class="">
+                       <div class=""><img class="card-img-top" src="./images/user_test.png" alt="Employees's name"></div>
+                       <div class="card-body">Bui Van Xia</div>
+                   </div>
+               </a>
+           </div>
+
+           <div class="card col-md-2 employee-card">
+               <a class="a-card" href="./rate_content.php?id=">
+                   <div class="">
+                       <div class=""><img class="card-img-top" src="./images/user_test.png" alt="Employees's name"></div>
+                       <div class="card-body">Nguyen Tan Loi</div>
+                   </div>
+               </a>
+           </div>
+
+           <div class="card col-md-2 employee-card">
+               <a class="a-card" href="./rate_content.php">
+                   <div class="">
+                       <div class=""><img class="card-img-top" src="./images/user_test.png" alt="Employees's name"></div>
+                       <div class="card-body">Tran Thi Quynh Nga</div>
+                   </div>
+               </a>
+           </div>
+
+           <div class="card col-md-2 employee-card">
+               <a class="a-card" href="./rate_content.php">
+                   <div class="">
+                       <div class=""><img class="card-img-top" src="./images/user_test.png" alt="Employees's name"></div>
+                       <div class="card-body">Huynh Thanh Tam</div>
+                   </div>
+               </a>
+           </div>
+       </div>
+    </div>
+
+    <?php 
+        include('./src/footer.php');
+    ?>
+</div>
+</body>
+</html>
